@@ -1,0 +1,131 @@
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import logo from "@/assets/logo.png";
+
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
+  const quickLinks = [
+    { label: "Início", href: "#inicio" },
+    { label: "Sobre", href: "#sobre" },
+    { label: "Produtos", href: "#produtos" },
+    { label: "Contato", href: "#contato" },
+  ];
+
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const element = document.querySelector(href);
+    if (element) {
+      const headerOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  return (
+    <footer className="bg-primary text-primary-foreground">
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+          {/* Logo e Slogan */}
+          <div className="space-y-4">
+            <img src={logo} alt="Larte Móveis" className="h-16 w-auto brightness-0 invert" />
+            <p className="text-sm opacity-90 italic">
+              "Cada móvel, um pedacinho do seu lar."
+            </p>
+            <p className="text-sm opacity-80 leading-relaxed">
+              Móveis de qualidade, acessíveis e modernos para transformar sua casa em um lar acolhedor.
+            </p>
+          </div>
+
+          {/* Links Rápidos */}
+          <div>
+            <h3 className="text-lg font-bold mb-4 text-accent">Links rápidos</h3>
+            <ul className="space-y-2">
+              {quickLinks.map((link) => (
+                <li key={link.label}>
+                  <a
+                    href={link.href}
+                    onClick={(e) => scrollToSection(e, link.href)}
+                    className="text-sm opacity-80 hover:opacity-100 hover:text-accent transition-all inline-block"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contato */}
+          <div>
+            <h3 className="text-lg font-bold mb-4 text-accent">Contato</h3>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-2 text-sm opacity-80">
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <span>Rua Padre Mário Verse 675</span>
+              </li>
+              <li className="flex items-start gap-2 text-sm">
+                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <a
+                  href="https://wa.me/5521982460115"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="opacity-80 hover:opacity-100 hover:text-accent transition-all"
+                >
+                  (21) 98246-0115
+                </a>
+              </li>
+              <li className="flex items-start gap-2 text-sm">
+                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <a
+                  href="mailto:docelarmoveisatendimento@gmail.com"
+                  className="opacity-80 hover:opacity-100 hover:text-accent transition-all break-all"
+                >
+                  docelarmoveisatendimento@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Horário */}
+          <div>
+            <h3 className="text-lg font-bold mb-4 text-accent">Horário de funcionamento</h3>
+            <div className="space-y-3">
+              <div className="flex items-start gap-2 text-sm opacity-80">
+                <Clock className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <div>
+                  <p className="font-medium">Segunda a sexta</p>
+                  <p>8h às 18h</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2 text-sm opacity-80">
+                <Clock className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <div>
+                  <p className="font-medium">Sábado</p>
+                  <p>8h às 12h</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Linha divisória */}
+        <div className="border-t border-primary-foreground/20 pt-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-80">
+            <p>
+              © {currentYear} Larte Móveis - Doce Lar Móveis. Todos os direitos reservados.
+            </p>
+            <p>
+              CNPJ: 07.611.671/0001-38
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
