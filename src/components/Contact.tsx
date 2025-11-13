@@ -1,5 +1,6 @@
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import whatsappIcon from "@/assets/whatsapp-icon.png";
 
 const Contact = () => {
   const contactInfo = [
@@ -70,8 +71,9 @@ const Contact = () => {
           <p className="text-base sm:text-lg mb-6 sm:mb-8 opacity-90 max-w-2xl mx-auto px-4">
             Entre em contato conosco pelo WhatsApp e descubra como podemos ajudar a tornar sua casa mais bonita e acolhedora
           </p>
-          <Button variant="hero" size="xl" asChild className="w-full sm:w-auto">
+          <Button variant="whatsapp" size="xl" asChild className="w-full sm:w-auto">
             <a href="https://wa.me/5521982460115" target="_blank" rel="noopener noreferrer">
+              <img src={whatsappIcon} alt="" className="w-5 h-5" />
               Fale conosco pelo WhatsApp
             </a>
           </Button>

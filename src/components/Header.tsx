@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.png";
+import whatsappIcon from "@/assets/whatsapp-icon.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -60,8 +61,9 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="hero" size="default" asChild>
+            <Button variant="whatsapp" size="default" asChild>
               <a href="https://wa.me/5521982460115" target="_blank" rel="noopener noreferrer">
+                <img src={whatsappIcon} alt="" className="w-4 h-4" />
                 Fale conosco
               </a>
             </Button>
@@ -90,8 +92,9 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="hero" size="default" className="w-full" asChild>
+            <Button variant="whatsapp" size="default" className="w-full" asChild>
               <a href="https://wa.me/5521982460115" target="_blank" rel="noopener noreferrer">
+                <img src={whatsappIcon} alt="" className="w-4 h-4" />
                 Fale conosco
               </a>
             </Button>
