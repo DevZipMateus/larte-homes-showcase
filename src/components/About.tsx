@@ -24,44 +24,44 @@ const About = () => {
   ];
 
   return (
-    <section id="sobre" className="py-24 bg-secondary/30">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Sobre nós</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+    <section id="sobre" className="py-16 sm:py-20 lg:py-24 bg-secondary/30">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-3 sm:mb-4">Sobre nós</h2>
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Conheça os valores que guiam nosso trabalho e nos tornam referência em móveis de qualidade
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {values.map((item, index) => {
             const Icon = item.icon;
             return (
               <div
                 key={index}
-                className="bg-card p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-border hover:border-primary/50"
+                className="bg-card p-6 sm:p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-border hover:border-primary/50"
               >
-                <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                  <Icon className="w-8 h-8 text-primary" />
+                <div className="bg-primary/10 w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                  <Icon className="w-7 h-7 sm:w-8 sm:h-8 text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-foreground mb-4">{item.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{item.description}</p>
+                <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-3 sm:mb-4">{item.title}</h3>
+                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">{item.description}</p>
               </div>
             );
           })}
         </div>
 
-        <div className="mt-16 grid md:grid-cols-2 gap-8 items-center">
-          <div className="relative overflow-hidden rounded-lg shadow-xl h-[400px]">
+        <div className="mt-12 sm:mt-16 grid md:grid-cols-2 gap-6 sm:gap-8 items-center">
+          <div className="relative overflow-hidden rounded-lg shadow-xl h-[300px] sm:h-[400px] md:h-[450px]">
             <img
               src={showroomImage}
               alt="Showroom da Larte Móveis com atendimento personalizado e móveis de qualidade"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-8 md:p-10 border border-primary/20">
-            <h3 className="text-3xl font-bold text-foreground mb-4">Nosso compromisso</h3>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+          <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-6 sm:p-8 md:p-10 border border-primary/20">
+            <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-3 sm:mb-4">Nosso compromisso</h3>
+            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
               Na Larte Móveis, acreditamos que cada peça de mobiliário tem o poder de transformar um espaço em um lar.
               Trabalhamos com dedicação para oferecer o melhor custo-benefício, sem abrir mão da qualidade, do design e
               do atendimento humanizado que você merece.

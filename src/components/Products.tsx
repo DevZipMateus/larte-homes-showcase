@@ -39,16 +39,16 @@ const Products = () => {
   ];
 
   return (
-    <section id="produtos" className="py-24 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Nossos produtos</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+    <section id="produtos" className="py-16 sm:py-20 lg:py-24 bg-background">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-3 sm:mb-4">Nossos produtos</h2>
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Móveis que combinam qualidade, design moderno e preços acessíveis para cada ambiente do seu lar
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {products.map((product, index) => (
             <div
               key={index}
@@ -61,23 +61,23 @@ const Products = () => {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold text-foreground mb-3">{product.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{product.description}</p>
+              <div className="p-5 sm:p-6">
+                <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-2 sm:mb-3">{product.title}</h3>
+                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">{product.description}</p>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="text-lg text-muted-foreground mb-6">
+        <div className="mt-12 sm:mt-16 text-center px-4">
+          <p className="text-base sm:text-lg text-muted-foreground mb-5 sm:mb-6">
             Interessado em conhecer nossa linha completa de produtos?
           </p>
           <a
             href="https://wa.me/5521982460115"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center h-14 px-10 text-base font-semibold rounded-lg bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg hover:shadow-xl transition-all duration-300"
+            className="inline-flex items-center justify-center h-12 sm:h-14 px-8 sm:px-10 text-sm sm:text-base font-semibold rounded-lg bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
           >
             Solicite nosso catálogo
           </a>
