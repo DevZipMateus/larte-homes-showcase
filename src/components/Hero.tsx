@@ -9,25 +9,25 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 py-32 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 py-24 sm:py-32 relative z-10">
         <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in text-neutral-950">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 animate-fade-in text-neutral-950">
             Larte Móveis
           </h1>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl text-primary mb-8 font-semibold animate-fade-in">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-primary mb-6 sm:mb-8 font-semibold animate-fade-in">
             Transforme sua casa em um lar acolhedor
           </h2>
-          <p className="text-lg md:text-xl mb-10 leading-relaxed animate-fade-in text-gray-950">
+          <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-10 leading-relaxed animate-fade-in text-gray-950">
             Móveis de qualidade, acessíveis e modernos que trazem conforto, beleza e praticidade para cada ambiente.
-            <span className="block mt-4 font-semibold italic text-neutral-950">"Cada móvel, um pedacinho do seu lar."</span>
+            <span className="block mt-3 sm:mt-4 font-semibold italic text-neutral-950">"Cada móvel, um pedacinho do seu lar."</span>
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in">
-            <Button variant="hero" size="xl" asChild>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in">
+            <Button variant="hero" size="xl" asChild className="w-full sm:w-auto">
               <a href="https://wa.me/5521982460115" target="_blank" rel="noopener noreferrer">
                 Entre em contato
               </a>
             </Button>
-            <Button variant="outline" size="xl" asChild>
+            <Button variant="outline" size="xl" asChild className="w-full sm:w-auto">
               <a href="#produtos">
                 Ver produtos
               </a>

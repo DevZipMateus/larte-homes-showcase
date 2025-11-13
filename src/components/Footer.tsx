@@ -28,29 +28,29 @@ const Footer = () => {
 
   return (
     <footer className="bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+      <div className="container mx-auto px-4 sm:px-6 py-10 sm:py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
           {/* Logo e Slogan */}
-          <div className="space-y-4">
-            <img src={logo} alt="Larte Móveis" className="h-16 w-auto brightness-0 invert" />
-            <p className="text-sm opacity-90 italic">
+          <div className="space-y-3 sm:space-y-4">
+            <img src={logo} alt="Larte Móveis" className="h-12 sm:h-16 w-auto brightness-0 invert" />
+            <p className="text-xs sm:text-sm opacity-90 italic">
               "Cada móvel, um pedacinho do seu lar."
             </p>
-            <p className="text-sm opacity-80 leading-relaxed">
+            <p className="text-xs sm:text-sm opacity-80 leading-relaxed">
               Móveis de qualidade, acessíveis e modernos para transformar sua casa em um lar acolhedor.
             </p>
           </div>
 
           {/* Links Rápidos */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-accent">Links rápidos</h3>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4 text-accent">Links rápidos</h3>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.label}>
                   <a
                     href={link.href}
                     onClick={(e) => scrollToSection(e, link.href)}
-                    className="text-sm opacity-80 hover:opacity-100 hover:text-accent transition-all inline-block"
+                    className="text-xs sm:text-sm opacity-80 hover:opacity-100 hover:text-accent transition-all inline-block"
                   >
                     {link.label}
                   </a>
@@ -61,14 +61,14 @@ const Footer = () => {
 
           {/* Contato */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-accent">Contato</h3>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2 text-sm opacity-80">
-                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4 text-accent">Contato</h3>
+            <ul className="space-y-2 sm:space-y-3">
+              <li className="flex items-start gap-2 text-xs sm:text-sm opacity-80">
+                <MapPin className="w-3.5 h-3.5 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
                 <span>Rua Padre Mário Verse 675</span>
               </li>
-              <li className="flex items-start gap-2 text-sm">
-                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
+              <li className="flex items-start gap-2 text-xs sm:text-sm">
+                <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
                 <a
                   href="https://wa.me/5521982460115"
                   target="_blank"
@@ -78,8 +78,8 @@ const Footer = () => {
                   (21) 98246-0115
                 </a>
               </li>
-              <li className="flex items-start gap-2 text-sm">
-                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
+              <li className="flex items-start gap-2 text-xs sm:text-sm">
+                <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
                 <a
                   href="mailto:docelarmoveisatendimento@gmail.com"
                   className="opacity-80 hover:opacity-100 hover:text-accent transition-all break-all"
@@ -92,17 +92,17 @@ const Footer = () => {
 
           {/* Horário */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-accent">Horário de funcionamento</h3>
-            <div className="space-y-3">
-              <div className="flex items-start gap-2 text-sm opacity-80">
-                <Clock className="w-4 h-4 mt-0.5 flex-shrink-0" />
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4 text-accent">Horário de funcionamento</h3>
+            <div className="space-y-2 sm:space-y-3">
+              <div className="flex items-start gap-2 text-xs sm:text-sm opacity-80">
+                <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="font-medium">Segunda a sexta</p>
                   <p>8h às 18h</p>
                 </div>
               </div>
-              <div className="flex items-start gap-2 text-sm opacity-80">
-                <Clock className="w-4 h-4 mt-0.5 flex-shrink-0" />
+              <div className="flex items-start gap-2 text-xs sm:text-sm opacity-80">
+                <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="font-medium">Sábado</p>
                   <p>8h às 12h</p>
@@ -113,12 +113,12 @@ const Footer = () => {
         </div>
 
         {/* Linha divisória */}
-        <div className="border-t border-primary-foreground/20 pt-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-80">
-            <p>
+        <div className="border-t border-primary-foreground/20 pt-6 sm:pt-8">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 text-xs sm:text-sm opacity-80">
+            <p className="text-center sm:text-left">
               © {currentYear} Larte Móveis - Doce Lar Móveis. Todos os direitos reservados.
             </p>
-            <p>
+            <p className="text-center sm:text-right">
               CNPJ: 07.611.671/0001-38
             </p>
           </div>
