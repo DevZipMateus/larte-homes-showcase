@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
+import whatsappIcon from "@/assets/whatsapp-icon.png";
+
 const Hero = () => {
-  return <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return (
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img src={heroImage} alt="Showroom da Larte Móveis com móveis elegantes e modernos" className="w-full h-full object-cover" />
@@ -22,8 +25,9 @@ const Hero = () => {
             <span className="block mt-3 sm:mt-4 font-semibold italic text-neutral-950">"Cada móvel, um pedacinho do seu lar."</span>
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in">
-            <Button variant="hero" size="xl" asChild className="w-full sm:w-auto">
+            <Button variant="whatsapp" size="xl" asChild className="w-full sm:w-auto">
               <a href="https://wa.me/5521982460115" target="_blank" rel="noopener noreferrer">
+                <img src={whatsappIcon} alt="" className="w-5 h-5" />
                 Entre em contato
               </a>
             </Button>
@@ -35,6 +39,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;

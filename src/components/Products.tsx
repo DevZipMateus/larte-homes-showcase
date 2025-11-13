@@ -3,6 +3,7 @@ import bedroomImage from "@/assets/bedroom.jpg";
 import diningRoomImage from "@/assets/dining-room.jpg";
 import officeImage from "@/assets/office.jpg";
 import kidsRoomImage from "@/assets/kids-room.jpg";
+import whatsappIcon from "@/assets/whatsapp-icon.png";
 
 const Products = () => {
   const products = [
@@ -77,8 +78,9 @@ const Products = () => {
             href="https://wa.me/5521982460115"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center h-12 sm:h-14 px-8 sm:px-10 text-sm sm:text-base font-semibold rounded-lg bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
+            className="inline-flex items-center justify-center gap-3 h-12 sm:h-14 px-8 sm:px-10 text-sm sm:text-base font-semibold rounded-lg bg-whatsapp text-whatsapp-foreground hover:bg-whatsapp/90 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
           >
+            <img src={whatsappIcon} alt="" className="w-5 h-5" />
             Solicite nosso catálogo
           </a>
         </div>
