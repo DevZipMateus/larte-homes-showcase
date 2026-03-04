@@ -21,8 +21,7 @@ const Hero = () => {
             Seu lar do jeito que você sempre sonhou
           </h2>
           <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-10 leading-relaxed animate-fade-in text-gray-950">
-            Móveis de qualidade, acessíveis e modernos que trazem conforto, beleza e praticidade para cada ambiente.
-            <span className="block mt-3 sm:mt-4 font-semibold italic text-neutral-950">"Cada móvel, um pedacinho do seu lar."</span>
+            Há 25 anos transformando casas em lares com responsabilidade, excelência e confiança. Trabalhamos todos os dias para manter o padrão que nos tornou referência.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in">
             <Button variant="whatsapp" size="xl" asChild className="w-full sm:w-auto">
