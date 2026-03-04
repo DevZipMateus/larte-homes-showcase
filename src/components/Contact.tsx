@@ -5,26 +5,22 @@ import whatsappIcon from "@/assets/whatsapp-icon.png";
 const Contact = () => {
   const contactInfo = [
     {
-      icon: MapPin,
-      title: "Endereço",
-      content: "Rua Padre Mário Verse 675",
+      icon: Phone,
+      title: "Telefone Pavuna",
+      content: "(21) 99452-4905",
+      link: "https://wa.me/5521994524905",
     },
     {
       icon: Phone,
-      title: "Telefone",
-      content: "(21) 98246-0115",
-      link: "https://wa.me/5521982460115",
+      title: "Telefone Anchieta",
+      content: "(21) 97061-7304",
+      link: "https://wa.me/5521970617304",
     },
     {
       icon: Mail,
       title: "E-mail",
       content: "docelarmoveisatendimento@gmail.com",
       link: "mailto:docelarmoveisatendimento@gmail.com",
-    },
-    {
-      icon: Clock,
-      title: "Horário",
-      content: "Seg a Sex: 8h às 18h | Sáb: 8h às 12h",
     },
   ];
 
