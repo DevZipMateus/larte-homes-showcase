@@ -26,10 +26,7 @@ const About = () => {
     <section id="sobre" className="py-16 sm:py-20 lg:py-24 bg-secondary/30">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-3 sm:mb-4">Sobre nós</h2>
-          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
-            Qualidade, estilo e preços que cabem no seu bolso para transformar todos os ambientes do seu lar.
-          </p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-8 sm:mb-12">Por que comprar com a gente</h2>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
