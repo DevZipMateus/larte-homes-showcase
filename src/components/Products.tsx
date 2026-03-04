@@ -45,7 +45,7 @@ const Products = () => {
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-3 sm:mb-4">Nossos produtos</h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
-            Móveis que combinam qualidade, design moderno e preços acessíveis para cada ambiente do seu lar
+            Qualidade, estilo e preços que cabem no seu bolso para transformar todos os ambientes do seu lar.
           </p>
         </div>
 
