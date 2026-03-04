@@ -18,7 +18,7 @@ const Hero = () => {
             Larte Móveis
           </h1>
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-primary mb-6 sm:mb-8 font-semibold animate-fade-in">
-            Transforme sua casa em um lar acolhedor
+            Seu lar do jeito que você sempre sonhou
           </h2>
           <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-10 leading-relaxed animate-fade-in text-gray-950">
             Móveis de qualidade, acessíveis e modernos que trazem conforto, beleza e praticidade para cada ambiente.
