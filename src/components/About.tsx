@@ -1,4 +1,4 @@
-import { Truck, Eye, Heart } from "lucide-react";
+import { Truck, ShieldCheck, Heart } from "lucide-react";
 
 const About = () => {
   const values = [
@@ -9,10 +9,10 @@ const About = () => {
         "Temos a entrega e montagem mais ágil de toda a região.",
     },
     {
-      icon: Eye,
-      title: "Visão",
+      icon: ShieldCheck,
+      title: "Reputação",
       description:
-        "Ser uma marca referência em móveis, destacando-se pela inovação, confiança e atendimento humanizado, conquistando cada cliente com produtos que encantam e duram.",
+        "Há 25 anos fazendo de tudo pelos nossos clientes, por isso temos uma avaliação e um feedback de respeito.",
     },
     {
       icon: Heart,
