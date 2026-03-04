@@ -41,7 +41,7 @@ const Header = () => {
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 z-50 bg-background shadow-md transition-all duration-300"
+      className="fixed top-0 left-0 right-0 z-50 bg-[#0f4c82] shadow-md transition-all duration-300"
     >
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
@@ -56,7 +56,7 @@ const Header = () => {
                 key={item.label}
                 href={item.href}
                 onClick={(e) => scrollToSection(e, item.href)}
-                className="text-foreground hover:text-primary transition-colors font-medium"
+                className="text-white hover:text-accent transition-colors font-medium"
               >
                 {item.label}
               </a>
@@ -71,7 +71,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-foreground hover:text-primary transition-colors"
+            className="md:hidden p-2 text-white hover:text-accent transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -81,13 +81,13 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-border pt-4 space-y-3">
+          <div className="md:hidden mt-4 pb-4 border-t border-white/20 pt-4 space-y-3">
             {navItems.map((item) => (
               <a
                 key={item.label}
                 href={item.href}
                 onClick={(e) => scrollToSection(e, item.href)}
-                className="block text-foreground hover:text-primary transition-colors font-medium py-2"
+                className="block text-white hover:text-accent transition-colors font-medium py-2"
               >
                 {item.label}
               </a>
