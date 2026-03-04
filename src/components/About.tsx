@@ -1,4 +1,4 @@
-import { Truck, ShieldCheck, Heart } from "lucide-react";
+import { Truck, ShieldCheck, BadgeCheck } from "lucide-react";
 
 const About = () => {
   const values = [
@@ -15,10 +15,10 @@ const About = () => {
         "Há 25 anos fazendo de tudo pelos nossos clientes, por isso temos uma avaliação e um feedback de respeito.",
     },
     {
-      icon: Heart,
-      title: "Valores",
+      icon: BadgeCheck,
+      title: "Qualidade",
       description:
-        "Acessibilidade com qualidade, inovação constante, respeito e transparência, satisfação do cliente e trabalho com propósito.",
+        "Trabalhamos com as melhores, comprar na Larte Móveis é saber que não vai ter que comprar um pensando.",
     },
   ];
 
