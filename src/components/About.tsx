@@ -1,5 +1,4 @@
 import { Target, Eye, Heart } from "lucide-react";
-import showroomImage from "@/assets/showroom.jpg";
 
 const About = () => {
   const values = [
@@ -51,23 +50,6 @@ const About = () => {
           })}
         </div>
 
-        <div className="mt-12 sm:mt-16 grid md:grid-cols-2 gap-6 sm:gap-8 items-center">
-          <div className="relative overflow-hidden rounded-lg shadow-xl h-[300px] sm:h-[400px] md:h-[450px]">
-            <img
-              src={showroomImage}
-              alt="Showroom da Larte Móveis com atendimento personalizado e móveis de qualidade"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-6 sm:p-8 md:p-10 border border-primary/20">
-            <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-3 sm:mb-4">Nosso compromisso</h3>
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              Na Larte Móveis, acreditamos que cada peça de mobiliário tem o poder de transformar um espaço em um lar.
-              Trabalhamos com dedicação para oferecer o melhor custo-benefício, sem abrir mão da qualidade, do design e
-              do atendimento humanizado que você merece.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
