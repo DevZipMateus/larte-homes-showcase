@@ -17,17 +17,17 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 27%;
 
-    --primary: 217 91% 35%;
+    --primary: 210 78% 28%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 217 91% 95%;
-    --secondary-foreground: 217 91% 35%;
+    --secondary: 210 78% 95%;
+    --secondary-foreground: 210 78% 28%;
 
     --muted: 220 14% 96%;
     --muted-foreground: 215 16% 47%;
 
-    --accent: 45 93% 58%;
-    --accent-foreground: 215 25% 27%;
+    --accent: 45 100% 50%;
+    --accent-foreground: 210 78% 28%;
     
     --whatsapp: 142 70% 49%;
     --whatsapp-foreground: 0 0% 100%;
@@ -37,17 +37,17 @@ All colors MUST be HSL.
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 217 91% 35%;
+    --ring: 210 78% 28%;
 
     --radius: 0.5rem;
     
-    --gradient-hero: linear-gradient(135deg, hsl(217 91% 35%) 0%, hsl(217 71% 45%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(45 93% 58%) 0%, hsl(45 93% 68%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(210 78% 28%) 0%, hsl(210 60% 38%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(45 100% 50%) 0%, hsl(45 100% 60%) 100%);
     
-    --shadow-sm: 0 1px 2px 0 hsl(217 91% 35% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(217 91% 35% / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(217 91% 35% / 0.15);
-    --shadow-xl: 0 20px 25px -5px hsl(217 91% 35% / 0.2);
+    --shadow-sm: 0 1px 2px 0 hsl(210 78% 28% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(210 78% 28% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(210 78% 28% / 0.15);
+    --shadow-xl: 0 20px 25px -5px hsl(210 78% 28% / 0.2);
     
     --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -65,7 +65,7 @@ All colors MUST be HSL.
 
     --sidebar-border: 220 13% 91%;
 
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 210 78% 50%;
   }
 
   .dark {
@@ -78,17 +78,17 @@ All colors MUST be HSL.
     --popover: 215 28% 17%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 217 91% 65%;
+    --primary: 210 78% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 217 32% 25%;
+    --secondary: 210 32% 25%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 217 32% 25%;
+    --muted: 210 32% 25%;
     --muted-foreground: 215 20% 65%;
 
-    --accent: 45 93% 58%;
-    --accent-foreground: 215 25% 27%;
+    --accent: 45 100% 50%;
+    --accent-foreground: 210 78% 28%;
     
     --whatsapp: 142 70% 49%;
     --whatsapp-foreground: 0 0% 100%;
@@ -96,12 +96,12 @@ All colors MUST be HSL.
     --destructive: 0 63% 31%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 217 32% 25%;
-    --input: 217 32% 25%;
-    --ring: 217 91% 65%;
+    --border: 210 32% 25%;
+    --input: 210 32% 25%;
+    --ring: 210 78% 45%;
     
-    --gradient-hero: linear-gradient(135deg, hsl(217 91% 45%) 0%, hsl(217 71% 55%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(45 93% 58%) 0%, hsl(45 93% 68%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(210 78% 35%) 0%, hsl(210 60% 45%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(45 100% 50%) 0%, hsl(45 100% 60%) 100%);
     
     --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.2);
     --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.3);
