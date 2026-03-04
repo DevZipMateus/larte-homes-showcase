@@ -18,7 +18,7 @@ const About = () => {
       icon: BadgeCheck,
       title: "Qualidade",
       description:
-        "Trabalhamos com as melhores, comprar na Larte Móveis é saber que não vai ter que comprar um pensando.",
+        "Trabalhamos com as melhores, comprar na Larte Móveis é saber que não vai ter que comprar um pensando em qualidade.",
     },
   ];
 
