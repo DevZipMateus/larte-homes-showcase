@@ -34,7 +34,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 mb-10 sm:mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 mb-10 sm:mb-12">
           {contactInfo.map((item, index) => {
             const Icon = item.icon;
             const content = item.link ? (
