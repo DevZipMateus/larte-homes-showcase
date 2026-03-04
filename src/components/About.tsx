@@ -1,12 +1,12 @@
-import { Target, Eye, Heart } from "lucide-react";
+import { Truck, Eye, Heart } from "lucide-react";
 
 const About = () => {
   const values = [
     {
-      icon: Target,
-      title: "Missão",
+      icon: Truck,
+      title: "Entrega e montagem",
       description:
-        "Oferecer móveis de qualidade, acessíveis e modernos, que tragam conforto, beleza e praticidade aos lares, tornando cada ambiente mais acolhedor e funcional.",
+        "Temos a entrega e montagem mais ágil de toda a região.",
     },
     {
       icon: Eye,
