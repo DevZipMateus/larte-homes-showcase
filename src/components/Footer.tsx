@@ -65,26 +65,15 @@ const Footer = () => {
             <ul className="space-y-2 sm:space-y-3">
               <li className="flex items-start gap-2 text-xs sm:text-sm opacity-80">
                 <MapPin className="w-3.5 h-3.5 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
-                <span>Rua Padre Mário Verse 675</span>
-              </li>
-              <li className="flex items-start gap-2 text-xs sm:text-sm">
-                <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
-                <a
-                  href="https://wa.me/5521982460115"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="opacity-80 hover:opacity-100 hover:text-accent transition-all"
-                >
-                  (21) 98246-0115
-                </a>
+                <span>R. Motorista Luiz Abreu, 527 - Anchieta, Rio de Janeiro</span>
               </li>
               <li className="flex items-start gap-2 text-xs sm:text-sm">
                 <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
                 <a
-                  href="mailto:docelarmoveisatendimento@gmail.com"
+                  href="mailto:atendimento@lartemoveis.com"
                   className="opacity-80 hover:opacity-100 hover:text-accent transition-all break-all"
                 >
-                  docelarmoveisatendimento@gmail.com
+                  atendimento@lartemoveis.com
                 </a>
               </li>
             </ul>
