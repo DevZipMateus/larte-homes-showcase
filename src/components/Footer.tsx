@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
           {/* Logo e Slogan */}
           <div className="space-y-3 sm:space-y-4">
-            <img src={logo} alt="Larte Móveis" className="h-12 sm:h-16 w-auto brightness-0 invert" />
+            <img src={logo} alt="Larte Móveis" className="h-12 sm:h-16 w-auto" />
             <p className="text-xs sm:text-sm opacity-90 italic">
               "Cada móvel, um pedacinho do seu lar."
             </p>
