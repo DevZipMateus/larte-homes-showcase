@@ -35,6 +35,15 @@ const Contact = () => {
             <p className="text-muted-foreground text-sm sm:text-base">Seg a Sex: 8:30 às 18:00</p>
             <p className="text-muted-foreground text-sm sm:text-base">Sáb: 8:30 às 13:00</p>
           </div>
+
+          <div className="bg-card p-5 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-border text-center">
+            <div className="bg-primary/10 w-11 h-11 sm:w-12 sm:h-12 rounded-full flex items-center justify-center mb-3 sm:mb-4 mx-auto">
+              <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-foreground mb-2">Localização</h3>
+            <p className="text-muted-foreground text-sm sm:text-base">R. Motorista Luiz Abreu, 527</p>
+            <p className="text-muted-foreground text-sm sm:text-base">Anchieta - Rio de Janeiro</p>
+          </div>
         </div>
 
         <div className="bg-gradient-to-r from-primary to-primary/80 rounded-lg p-6 sm:p-8 md:p-12 text-center text-primary-foreground shadow-xl">
