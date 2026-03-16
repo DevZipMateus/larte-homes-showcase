@@ -1,8 +1,6 @@
 import livingRoomImage from "@/assets/living-room.jpg";
 import bedroomImage from "@/assets/bedroom.jpg";
 import diningRoomImage from "@/assets/dining-room.jpg";
-import officeImage from "@/assets/office.jpg";
-import kidsRoomImage from "@/assets/kids-room.jpg";
 import whatsappIcon from "@/assets/whatsapp-icon.png";
 
 const Products = () => {
