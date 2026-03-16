@@ -25,18 +25,6 @@ const Products = () => {
       image: diningRoomImage,
       alt: "Sala de jantar sofisticada com mesa e cadeiras em tons de azul e dourado",
     },
-    {
-      title: "Home office",
-      description: "Escrivaninhas, cadeiras ergonômicas e estantes que criam o ambiente perfeito para trabalhar com produtividade e conforto.",
-      image: officeImage,
-      alt: "Home office moderno com mesa, cadeira azul e decoração organizada",
-    },
-    {
-      title: "Quarto infantil",
-      description: "Móveis seguros, divertidos e funcionais que estimulam a criatividade e organizam o espaço das crianças com muito charme.",
-      image: kidsRoomImage,
-      alt: "Quarto infantil alegre com móveis em azul e amarelo",
-    },
   ];
 
   return (
