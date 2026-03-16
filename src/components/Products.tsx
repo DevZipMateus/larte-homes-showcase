@@ -1,8 +1,6 @@
 import livingRoomImage from "@/assets/living-room.jpg";
 import bedroomImage from "@/assets/bedroom.jpg";
 import diningRoomImage from "@/assets/dining-room.jpg";
-import officeImage from "@/assets/office.jpg";
-import kidsRoomImage from "@/assets/kids-room.jpg";
 import whatsappIcon from "@/assets/whatsapp-icon.png";
 
 const Products = () => {
@@ -24,18 +22,6 @@ const Products = () => {
       description: "Mesas e cadeiras perfeitas para reunir a família e criar momentos inesquecíveis ao redor de uma boa refeição.",
       image: diningRoomImage,
       alt: "Sala de jantar sofisticada com mesa e cadeiras em tons de azul e dourado",
-    },
-    {
-      title: "Home office",
-      description: "Escrivaninhas, cadeiras ergonômicas e estantes que criam o ambiente perfeito para trabalhar com produtividade e conforto.",
-      image: officeImage,
-      alt: "Home office moderno com mesa, cadeira azul e decoração organizada",
-    },
-    {
-      title: "Quarto infantil",
-      description: "Móveis seguros, divertidos e funcionais que estimulam a criatividade e organizam o espaço das crianças com muito charme.",
-      image: kidsRoomImage,
-      alt: "Quarto infantil alegre com móveis em azul e amarelo",
     },
   ];
 
