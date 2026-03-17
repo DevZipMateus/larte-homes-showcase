@@ -38,11 +38,15 @@ const Contact = () => {
 
           <div className="bg-card p-5 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-border text-center">
             <div className="bg-primary/10 w-11 h-11 sm:w-12 sm:h-12 rounded-full flex items-center justify-center mb-3 sm:mb-4 mx-auto">
-              <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
             </div>
-            <h3 className="text-base sm:text-lg font-bold text-foreground mb-2">Localização</h3>
-            <p className="text-muted-foreground text-sm sm:text-base">R. Motorista Luiz Abreu, 527</p>
-            <p className="text-muted-foreground text-sm sm:text-base">Anchieta - Rio de Janeiro</p>
+            <h3 className="text-base sm:text-lg font-bold text-foreground mb-2">Telefone</h3>
+            <a
+              href="tel:+5521982460115"
+              className="text-primary hover:text-primary/80 transition-colors font-medium text-sm sm:text-base"
+            >
+              (21) 98246-0115
+            </a>
           </div>
         </div>
 
