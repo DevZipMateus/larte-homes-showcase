@@ -19,7 +19,7 @@ const Products = () => {
     },
     {
       title: "Sala de jantar",
-      description: "Mesas e cadeiras perfeitas para reunir a família e criar momentos inesquecíveis ao redor de uma boa refeição.",
+      description: "Armários, mesas, cadeiras, balcões e tudo o que a sua cozinha merece para ficar mais prática, organizada e cheia de estilo.",
       image: diningRoomImage,
       alt: "Sala de jantar sofisticada com mesa e cadeiras em tons de azul e dourado",
     },
