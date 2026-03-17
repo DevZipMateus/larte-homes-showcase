@@ -76,6 +76,13 @@ const Footer = () => {
                   atendimento@lartemoveis.com
                 </a>
               </li>
+              <li className="flex items-start gap-2 text-xs sm:text-sm">
+                <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4 mt-0.5 flex-shrink-0" />
+                <div className="flex flex-col gap-1">
+                  <a href="tel:+5521970617304" className="opacity-80 hover:opacity-100 hover:text-accent transition-all">(21) 97061-7304</a>
+                  <a href="tel:+5521994524905" className="opacity-80 hover:opacity-100 hover:text-accent transition-all">(21) 99452-4905</a>
+                </div>
+              </li>
             </ul>
           </div>
 
