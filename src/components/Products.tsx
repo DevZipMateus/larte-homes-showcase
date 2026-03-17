@@ -13,7 +13,7 @@ const Products = () => {
     },
     {
       title: "Quartos",
-      description: "Camas, guarda-roupas e criados-mudos que transformam seu quarto em um refúgio de descanso e tranquilidade.",
+      description: "Camas, guarda-roupas, cômodas, criados-mudos e tudo o que o seu quarto merece para ser mais aconchegante.",
       image: bedroomImage,
       alt: "Quarto elegante com cama confortável e decoração em tons de azul",
     },
