@@ -61,7 +61,7 @@ const Products = () => {
             Interessado em conhecer nossa linha completa de produtos?
           </p>
           <a
-            href="https://wa.me/5521982460115"
+            href="https://wa.me/5521994524905"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 h-12 sm:h-14 px-8 sm:px-10 text-sm sm:text-base font-semibold rounded-lg bg-whatsapp text-whatsapp-foreground hover:bg-whatsapp/90 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto"
