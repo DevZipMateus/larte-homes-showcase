@@ -12,7 +12,7 @@ const Products = () => {
       alt: "Sala de estar moderna com sofá azul e almofadas amarelas douradas",
     },
     {
-      title: "Quartos",
+      title: "Quarto",
       description: "Camas, guarda-roupas, cômodas, criados-mudos e tudo o que o seu quarto merece para ser mais aconchegante.",
       image: bedroomImage,
       alt: "Quarto elegante com cama confortável e decoração em tons de azul",
