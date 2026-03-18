@@ -91,10 +91,24 @@ const Testimonials = () => {
             >
               <button
                 className="absolute top-4 right-4 text-white bg-white/20 rounded-full p-2 hover:bg-white/30 transition-colors"
-                onClick={() => setExpanded(false)}
+                onClick={(e) => { e.stopPropagation(); setExpanded(false); }}
                 aria-label="Fechar"
               >
                 <X className="w-6 h-6" />
+              </button>
+              <button
+                className="absolute left-4 top-1/2 -translate-y-1/2 text-white bg-white/20 rounded-full p-3 hover:bg-white/30 transition-colors"
+                onClick={(e) => { e.stopPropagation(); prev(); }}
+                aria-label="Anterior"
+              >
+                <ChevronLeft className="w-6 h-6" />
+              </button>
+              <button
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-white bg-white/20 rounded-full p-3 hover:bg-white/30 transition-colors"
+                onClick={(e) => { e.stopPropagation(); next(); }}
+                aria-label="Próxima"
+              >
+                <ChevronRight className="w-6 h-6" />
               </button>
               <img
                 src={reviews[current].src}
