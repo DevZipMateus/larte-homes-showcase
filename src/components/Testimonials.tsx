@@ -54,7 +54,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="relative max-w-2xl mx-auto">
+        <div className="relative max-w-lg mx-auto">
           <button
             onClick={prev}
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 sm:-translate-x-12 z-10 bg-card border border-border rounded-full p-2 shadow-md hover:bg-accent/10 transition-colors"
