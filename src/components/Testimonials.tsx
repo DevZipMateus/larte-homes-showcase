@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { ChevronLeft, ChevronRight, Star } from "lucide-react";
+import { ChevronLeft, ChevronRight, Star, X } from "lucide-react";
 import review1 from "@/assets/review-1.png";
 import review2 from "@/assets/review-2.png";
 import review3 from "@/assets/review-3.png";
@@ -20,6 +20,7 @@ const reviews = [
 
 const Testimonials = () => {
   const [current, setCurrent] = useState(0);
+  const [expanded, setExpanded] = useState(false);
 
   const next = useCallback(() => {
     setCurrent((prev) => (prev + 1) % reviews.length);
@@ -71,13 +72,37 @@ const Testimonials = () => {
             <ChevronRight className="w-5 h-5 text-foreground" />
           </button>
 
-          <div className="bg-card rounded-xl shadow-lg border border-border overflow-hidden">
+          <div
+            className="bg-card rounded-xl shadow-lg border border-border overflow-hidden cursor-pointer"
+            onClick={() => setExpanded(true)}
+          >
             <img
               src={reviews[current].src}
               alt={reviews[current].alt}
               className="w-full h-auto object-contain"
             />
           </div>
+
+          {expanded && (
+            <div
+              className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"
+              onClick={() => setExpanded(false)}
+            >
+              <button
+                className="absolute top-4 right-4 text-white bg-white/20 rounded-full p-2 hover:bg-white/30 transition-colors"
+                onClick={() => setExpanded(false)}
+                aria-label="Fechar"
+              >
+                <X className="w-6 h-6" />
+              </button>
+              <img
+                src={reviews[current].src}
+                alt={reviews[current].alt}
+                className="max-w-full max-h-[90vh] object-contain rounded-lg"
+                onClick={(e) => e.stopPropagation()}
+              />
+            </div>
+          )}
 
           <div className="flex justify-center gap-2 mt-6">
             {reviews.map((_, i) => (
