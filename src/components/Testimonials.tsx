@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { ChevronLeft, ChevronRight, Star } from "lucide-react";
+import { ChevronLeft, ChevronRight, Star, X } from "lucide-react";
 import review1 from "@/assets/review-1.png";
 import review2 from "@/assets/review-2.png";
 import review3 from "@/assets/review-3.png";
