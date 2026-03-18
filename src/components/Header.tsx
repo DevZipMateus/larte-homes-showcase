@@ -43,10 +43,10 @@ const Header = () => {
     <header
       className="fixed top-0 left-0 right-0 z-50 bg-[#0f4c82] shadow-md transition-all duration-300"
     >
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
-          <a href="#inicio" className="flex items-center gap-3" onClick={(e) => scrollToSection(e, "#inicio")}>
-            <img src={logo} alt="Larte Móveis" className="h-20 w-auto" />
+          <a href="#inicio" className="flex items-center gap-3 -my-2" onClick={(e) => scrollToSection(e, "#inicio")}>
+            <img src={logo} alt="Larte Móveis" className="h-24 w-auto" />
           </a>
 
           {/* Desktop Navigation */}
