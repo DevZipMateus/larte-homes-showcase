@@ -20,6 +20,7 @@ const reviews = [
 
 const Testimonials = () => {
   const [current, setCurrent] = useState(0);
+  const [expanded, setExpanded] = useState(false);
 
   const next = useCallback(() => {
     setCurrent((prev) => (prev + 1) % reviews.length);
