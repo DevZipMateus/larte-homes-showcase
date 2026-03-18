@@ -93,7 +93,7 @@ const Header = () => {
               </a>
             ))}
             <Button variant="whatsapp" size="default" className="w-full" asChild>
-              <a href="https://wa.me/5521982460115" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5521994524905" target="_blank" rel="noopener noreferrer">
                 <img src={whatsappIcon} alt="" className="w-4 h-4" />
                 Fale conosco
               </a>

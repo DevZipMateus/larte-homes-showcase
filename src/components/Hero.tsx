@@ -25,7 +25,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in">
             <Button variant="whatsapp" size="xl" asChild className="w-full sm:w-auto">
-              <a href="https://wa.me/5521982460115" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5521994524905" target="_blank" rel="noopener noreferrer">
                 <img src={whatsappIcon} alt="" className="w-5 h-5" />
                 Entre em contato
               </a>
