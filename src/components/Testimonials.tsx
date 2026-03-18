@@ -31,9 +31,10 @@ const Testimonials = () => {
   }, []);
 
   useEffect(() => {
+    if (expanded) return;
     const timer = setInterval(next, 3000);
     return () => clearInterval(timer);
-  }, [next]);
+  }, [next, expanded]);
 
   return (
     <section className="py-16 sm:py-20 lg:py-24 bg-secondary/30">
