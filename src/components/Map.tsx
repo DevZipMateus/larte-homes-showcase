@@ -17,6 +17,7 @@ const stores = [
     hours: ["Seg a Sex: 8:30 às 18:00", "Sáb: 8:30 às 13:00"],
     phone: "(21) 97061-7304",
     whatsapp: "5521970617304",
+    googleLink: "https://share.google/y7S4fUpQBilMGIFQs",
     mapSrc:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5!2d-43.3961!3d-22.8336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zUi4gTW90b3Jpc3RhIEx1aXogQWJyZXUsIDUyNyAtIEFuY2hpZXRh!5e0!3m2!1spt-BR!2sbr!4v1700000000000",
   },
