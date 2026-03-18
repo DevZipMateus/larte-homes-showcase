@@ -18,7 +18,7 @@ const Products = () => {
       alt: "Quarto elegante com cama confortável e decoração em tons de azul",
     },
     {
-      title: "Sala de jantar",
+      title: "Cozinha",
       description: "Armários, mesas, cadeiras, balcões e tudo o que a sua cozinha merece para ficar mais prática, organizada e cheia de estilo.",
       image: diningRoomImage,
       alt: "Sala de jantar sofisticada com mesa e cadeiras em tons de azul e dourado",
