@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { ChevronLeft, ChevronRight, Star, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, Star, X, ExternalLink } from "lucide-react";
 import review1 from "@/assets/review-1.png";
 import review2 from "@/assets/review-2.png";
 import review3 from "@/assets/review-3.png";
@@ -115,6 +115,27 @@ const Testimonials = () => {
                 aria-label={`Ir para avaliação ${i + 1}`}
               />
             ))}
+          </div>
+
+          <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mt-8">
+            <a
+              href="https://share.google/qlri1YKAoXcFv0bei"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors shadow-md text-sm sm:text-base"
+            >
+              <ExternalLink className="w-4 h-4" />
+              Ver no Google - Loja Pavuna
+            </a>
+            <a
+              href="https://share.google/y7S4fUpQBilMGIFQs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors shadow-md text-sm sm:text-base"
+            >
+              <ExternalLink className="w-4 h-4" />
+              Ver no Google - Loja Anchieta
+            </a>
           </div>
         </div>
       </div>
