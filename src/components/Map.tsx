@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone } from "lucide-react";
+import { MapPin, Clock, Phone, ExternalLink } from "lucide-react";
 
 const stores = [
   {
@@ -7,6 +7,7 @@ const stores = [
     hours: ["Seg a Sex: 8:30 às 18:00", "Sáb: 8:30 às 14:00"],
     phone: "(21) 99452-4905",
     whatsapp: "5521994524905",
+    googleLink: "https://share.google/qlri1YKAoXcFv0bei",
     mapSrc:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5!2d-43.3661!3d-22.8236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996476914d89ad%3A0xd9a5bd897bcd3470!2sLarte%20M%C3%B3veis!5e0!3m2!1spt-BR!2sbr!4v1700000000000",
   },
