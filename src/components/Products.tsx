@@ -6,7 +6,7 @@ import whatsappIcon from "@/assets/whatsapp-icon.png";
 const Products = () => {
   const products = [
     {
-      title: "Sala de estar",
+      title: "Sala",
       description: "Sofás, poltronas, mesas de sala, racks, painéis e tudo o que a sua sala merece para ficar completa, confortável e cheia de estilo.",
       image: livingRoomImage,
       alt: "Sala de estar moderna com sofá azul e almofadas amarelas douradas",
