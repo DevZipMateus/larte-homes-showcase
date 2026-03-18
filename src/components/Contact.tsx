@@ -34,7 +34,7 @@ const Contact = () => {
             </a>
           </div>
 
-          <div className="bg-card p-5 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-border text-center">
+          <div className="bg-card p-5 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-border text-center flex-1">
             <div className="bg-primary/10 w-11 h-11 sm:w-12 sm:h-12 rounded-full flex items-center justify-center mb-3 sm:mb-4 mx-auto">
               <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
             </div>
