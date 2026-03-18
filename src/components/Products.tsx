@@ -6,19 +6,19 @@ import whatsappIcon from "@/assets/whatsapp-icon.png";
 const Products = () => {
   const products = [
     {
-      title: "Sala de estar",
+      title: "Sala",
       description: "Sofás, poltronas, mesas de sala, racks, painéis e tudo o que a sua sala merece para ficar completa, confortável e cheia de estilo.",
       image: livingRoomImage,
       alt: "Sala de estar moderna com sofá azul e almofadas amarelas douradas",
     },
     {
-      title: "Quartos",
+      title: "Quarto",
       description: "Camas, guarda-roupas, cômodas, criados-mudos e tudo o que o seu quarto merece para ser mais aconchegante.",
       image: bedroomImage,
       alt: "Quarto elegante com cama confortável e decoração em tons de azul",
     },
     {
-      title: "Sala de jantar",
+      title: "Cozinha",
       description: "Armários, mesas, cadeiras, balcões e tudo o que a sua cozinha merece para ficar mais prática, organizada e cheia de estilo.",
       image: diningRoomImage,
       alt: "Sala de jantar sofisticada com mesa e cadeiras em tons de azul e dourado",
